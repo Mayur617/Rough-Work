@@ -10,7 +10,7 @@ tfds.disable_progress_bar()
 train_ds, validation_ds = tfds.load(
     "tf_flowers", split=["train[:85%]", "train[85%:]"], as_supervised=True
 )
-
+print("Hello")
 IMAGE_SIZE = 224
 NUM_IMAGES = 1000
 
